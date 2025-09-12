@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoNome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto {
+    width: 20%;
+    height: auto;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+}

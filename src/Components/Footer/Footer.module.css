@@ -1,0 +1,13 @@
+.container{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+
+    bottom: 0;
+    background-color: brown;
+}
