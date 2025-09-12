@@ -1,4 +1,3 @@
-import React from 'react'
 import style from "./Header.module.css"
 import logoPlataforma101 from "../../assets/Logo Plataforma 101.png"
 export default function Header() {
