@@ -1,0 +1,7 @@
+.contato a{
+    color: white;
+    display: flex;
+    align-self: center;
+    padding: 5px;
+    gap: 3px;
+}

@@ -1,0 +1,31 @@
+.container{
+    width: 70vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(58, 58, 58);
+}
+
+.MenuBox{
+    width: 90%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    padding: 0 0 20px 0;
+}
+
+.box{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: brown 1px solid;
+    border-radius: 30px;
+     
+}

@@ -1,9 +1,9 @@
-import style from "./Home.module.css"
+import style from "./Main.module.css"
 import Carousel from "../Carrossel/Carousel";
 
 import logoPlataforma101 from "../../assets/Logo Plataforma 101.png"
 
-export default function Home() {
+export default function Main() {
 
   const carouselItems = [
     { src: "https://picsum.photos/800/400?random=1", title: "Imagem 1" },
@@ -19,12 +19,7 @@ export default function Home() {
   return (
     <>
       <div className={style.container}>
-        <div className={style.fotoNome}>
-          <div className={style.foto}>
-            <img src={logoPlataforma101} alt="" />
-          </div>
-          <h1>Plataforma 101</h1>
-        </div>
+        <h1>Plataforma 101</h1>
 
         <Carousel items={carouselItems} />
       </div>

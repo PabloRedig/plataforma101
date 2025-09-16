@@ -1,0 +1,30 @@
+.navbar {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 4px;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid white;
+}
+
+.nav-link:visited,
+.nav-link:focus,
+.nav-link:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+.nav-link:hover {             /* muda a cor para dourado (pode trocar) */
+  transform: scale(1.1);        /* dá um leve zoom */
+  border-bottom: 2px solid #191919; /* aparece a linha em dourado */
+}
