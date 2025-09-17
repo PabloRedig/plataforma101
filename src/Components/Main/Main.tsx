@@ -1,8 +1,6 @@
 import style from "./Main.module.css"
 import Carousel from "../Carrossel/Carousel";
 
-import logoPlataforma101 from "../../assets/Logo Plataforma 101.png"
-
 export default function Main() {
 
   const carouselItems = [
