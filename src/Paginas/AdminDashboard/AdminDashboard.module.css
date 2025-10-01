@@ -1,0 +1,104 @@
+.container{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 0 30px 0 30px;
+    background-color: brown;
+}
+
+.title{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.title span{
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+
+}
+
+.title p{
+    padding: 6px;
+    font-size: 30px;
+    background-color: brown;
+    position: relative;
+    left: 15px;
+    top: -3px;
+}
+
+.button {
+  background: brown; /* cor de fundo */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  right: 13px;
+  border-radius: 0 20px 0 20px;
+
+  /* sombra para simular altura */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+/* efeito ao passar o mouse (fica mais alto) */
+.button:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+/* efeito de clique (fica mais baixo) */
+.button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Enviar{
+    right: 0px;
+}
+
+input[type="file"] {
+  color: white; /* cor do texto ao lado */
+}
+
+input[type="file"]::file-selector-button {
+  background-color: brown;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+input[type="file"]::file-selector-button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px);
+}
