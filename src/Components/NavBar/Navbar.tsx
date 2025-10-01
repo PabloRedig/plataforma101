@@ -28,6 +28,15 @@ export function Navbar() {
       >
         Eventos
       </NavLink>
+
+      <NavLink
+        to="/admin/login"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        login
+      </NavLink>
     </nav>
   );
 }
