@@ -3,7 +3,6 @@ import Footer from '../../Components/Footer/Footer'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import style from "./Contato.module.css"
-import Loading from '../../Components/Loanding/Loading';
 export default function Contato() {
   return (
     <>
