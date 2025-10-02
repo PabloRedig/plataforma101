@@ -65,6 +65,7 @@ export default function AdminDashboard() {
       <div className={style.container}>
         <div className={style.title}>
           <p>Painel Administrador</p>
+          <span></span>
           <button onClick={handleLogout} className={style.button}>
             Sair
           </button>
